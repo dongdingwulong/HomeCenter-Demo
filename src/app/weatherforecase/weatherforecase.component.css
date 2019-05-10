@@ -1,0 +1,116 @@
+.weatherforecast .day {
+  padding-left: 0;
+  padding-right: 25px;
+  padding: 100px;
+}
+
+.weatherforecast .weather-icon {
+  padding-right: 30px;
+  text-align: center;
+}
+
+.weatherforecast .min-temp {
+  padding-left: 20px;
+  padding-right: 0;
+}
+
+.weatherforecast .rain {
+  padding-left: 20px;
+  padding-right: 0;
+}
+
+.weatherforecast tr.colored .min-temp {
+  color: #BCDDFF;
+}
+
+.weatherforecast tr.colored .max-temp {
+  color: #FF8E99;
+}
+
+.forecast {
+  padding-left: 0;
+  padding-right: 25px;
+}
+
+.dimmed {
+  color: #666;
+}
+
+.normal {
+  color: #999;
+}
+
+.bright {
+  color: #fff;
+}
+
+.xsmall {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.small {
+  font-size: 28px;
+  line-height: 30px;
+}
+
+.medium {
+  font-size: 100px;
+  line-height: 35px;
+}
+
+.large {
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.xlarge {
+  font-size: 75px;
+  line-height: 75px;
+  letter-spacing: -3px;
+}
+
+.thin {
+  font-family: Roboto, sans-serif;
+  font-weight: 100;
+}
+
+.light {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 800;
+}
+
+.regular {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+}
+
+.bold {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-left {
+  text-align: left;
+}
+
+header {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  border-bottom: 1px solid #666;
+  line-height: 15px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  color: #999;
+}
+
+sup {
+  font-size: 50%;
+  line-height: 50%;
+}

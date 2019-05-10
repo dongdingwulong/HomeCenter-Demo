@@ -1,0 +1,13 @@
+<div class="outdoor" (click)="FireSwitch()">
+  <!-- <wi name="cloudy"></wi> -->
+  <span class="temp bright light">{{ temp }}</span>
+</div>
+<div (click)="FireSwitch()">
+    <span class="windSpeed">{{ windSpeed }}</span>
+    <span class="disc">{{ description }}</span>
+</div>
+<div class="room light" (click)="FireSwitch()">
+    <div class="roomInfo"><span>室温&ensp;</span><span class="roomT bright">{{ roomTemp }}</span></div>
+    <div><span>湿度&ensp;</span><span class="roomH bright">{{ roomHumidity }}</span></div>
+</div>
+

@@ -1,0 +1,69 @@
+.myButton {
+	background-color:#000000;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:22px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton1 {
+	background-color:#000000;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:18px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:22px;
+	padding:5px 30px;
+	text-decoration:none;
+	vertical-align:middle
+	/* text-shadow:0px 1px 0px #2f6627; */
+}
+.myButton1:focus {
+	outline:0;
+	cursor: none !important;
+}
+label#Switch {
+	vertical-align: middle;
+	padding-left:20px;
+	/* margin-left:60px; */
+	margin-right:20px;
+	cursor: none !important;
+}
+label#Switch:focus {
+	outline:0;
+	cursor: none !important;
+}
+/* .myButton:hover {
+	background-color:#ffffff;
+} */
+/* .myButton:active {
+	position:relative;
+	top:1px;
+} */
+ul#Menu {
+	height: 44px;
+	list-style:none;
+	padding:0; /*将默认的内边距去掉 */
+	margin:0; /* 将默认的外边距去掉 */
+}
+ul#Menu li {
+	float:left;
+	list-style: none;
+	width: 53px;
+	display: block;
+	/* width: 100%; */
+	height: 100%;
+	/* padding-right: 5px; */
+	background-color: aquamarine;
+}

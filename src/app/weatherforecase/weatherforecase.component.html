@@ -1,0 +1,20 @@
+<div>
+  <hr align=right width=180 color=#666 SIZE=1>
+  <table class="small">
+    <tr class="forecast" *ngFor="let info of infoList">
+      <td class="day">
+        {{ info.day }}
+      </td>
+      <td class="bright weather-icon">
+        <i [ngClass]="info.iconClass">
+        </i>
+      </td>
+      <td class="align-right bright max-temp">
+        {{ info.max }}
+      </td>
+      <td class="align-right min-temp">
+        {{ info.min }}
+      </td>
+    </tr>
+  </table>
+</div>

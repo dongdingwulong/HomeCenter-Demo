@@ -1,0 +1,16 @@
+<div>
+  <!--date-->
+  <div class="date normal medium">
+    {{ date | date:'MM月dd日'}}{{ week }}
+  </div>
+
+  <!--time-->
+  <div class="time bright large light">
+    <!-- 18:00 -->
+    {{ date | date:'hh:mm'}}
+    <!--second-->
+    <sup class="dimmed">
+      {{ date | date:'ss'}}
+    </sup>
+  </div>
+</div>
